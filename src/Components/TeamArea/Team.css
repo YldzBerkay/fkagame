@@ -12,7 +12,6 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 1rem;
 }
 
 .team-card{
@@ -23,7 +22,7 @@
 }
 
 .team-card img{
-    max-width: 70%;
+    max-width: 50%;
     height: auto;
     border: 5px solid black;
 

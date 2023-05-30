@@ -19,6 +19,7 @@
     background-image: url("../../Images/modal_header_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 75px;
 }
 
 .thelosthope-header p {

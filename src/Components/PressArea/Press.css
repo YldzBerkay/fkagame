@@ -21,10 +21,9 @@
 .press-left-side{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-end;
     flex-direction: column;
-    padding-left: 8rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
     width: 40%;
 }
 
@@ -43,11 +42,23 @@
 .press-right-side{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     width: 60%;
-    padding-left: 1rem;
-    padding-right: 8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.press-right-side p{
+    max-width: 800px;
+
+}
+.press-right-side-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 @media (max-width:880px){
