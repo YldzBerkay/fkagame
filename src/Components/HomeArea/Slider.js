@@ -20,7 +20,7 @@ const Slideshow = () => {
       <Fade>
         {fadeImages.map((fadeImage, index) => (
           <div key={index}>
-            <img style={{ width: '100%' ,height:'100vh',objectFit:'cover'}} src={fadeImage.url} />
+            <img style={{ width: '100%' ,height:'100vh',objectFit:'cover'}} src={fadeImage.url} alt='Slide-Images'/>
           </div>
         ))}
       </Fade>

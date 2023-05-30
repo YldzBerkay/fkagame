@@ -6,11 +6,14 @@
     flex-direction: column;
 }
 
+.thelosthope p{
+    max-width: 600px;
+}
+
 .thelosthope-header {
     width: 100vw;
     height: 125px;
     background-color: rgba(0, 0, 0, 1);
-    /* İÇİNDEKLERİ YAN YANA GÖSTER */
     display: flex;
     flex-direction: row;
     background-image: url("../../Images/modal_header_bg.png");
@@ -21,7 +24,6 @@
 .thelosthope-header p {
     max-width: 40%;
     height: 125px;
-    /* yazı alt satıra inmesin */
     display: flex;
     white-space: nowrap;
     align-items: center;

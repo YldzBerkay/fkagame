@@ -13,7 +13,7 @@ function Team() {
               Lead Cinematic Artist / Founder
             </div>
             <div className="team-card-image">
-              <img src={require("../../Images/Team Members/furkan.jpg")} />
+              <img src={require("../../Images/Team Members/furkan.jpg")} alt="Furkan" />
             </div>
           </div>
           <div className="team-card">
@@ -22,7 +22,7 @@ function Team() {
               Lead Developer / Co-Founder
             </div>
             <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Oguz.png")} />
+              <img src={require("../../Images/Team Members/Oguz.png")} alt="Oguz"/>
             </div>
           </div>
           <div className="team-card">
@@ -31,70 +31,70 @@ function Team() {
               Art Director / Co-Founder
             </div>
             <div className="team-card-image">
-              <img src={require("../../Images/Team Members/no-photo.png")} />
+              <img src={require("../../Images/Team Members/no-photo.png")} alt="Kerem" />
             </div>
           </div>
           <div className="team-card">
             <div className="team-card-text-name">Elif Ardoğan</div>
             <div className="team-card-text-positon">Junior 3D Artist </div>
             <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Elif.png")} />
+              <img src={require("../../Images/Team Members/Elif.png")} alt="Elif"/>
             </div>
           </div>
           <div className="team-card">
             <div className="team-card-text-name">Berkay Arda Yıldız</div>
             <div className="team-card-text-positon">Web Developer</div>
             <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Berkay.jpg")} />
+              <img src={require("../../Images/Team Members/Berkay.jpg")} alt="Berkay"/>
             </div>
           </div>
           <div className="team-card">
             <div className="team-card-text-name">Onur Erdinli</div>
             <div className="team-card-text-positon">Level Designer </div>
             <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Onur.jpg")} />
+              <img src={require("../../Images/Team Members/Onur.jpg")} alt="Onur"/>
             </div>
           </div>
           <div className="team-card">
             <div className="team-card-text-name">Oktay Hotaman</div>
             <div className="team-card-text-positon">Junior Level Designer</div>
             <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Oktay.jpg")} />
+              <img src={require("../../Images/Team Members/Oktay.jpg")} alt="Oktay"/>
             </div>
           </div>
           <div className="team-card">
             <div className="team-card-text-name">Utku Şirin</div>
             <div className="team-card-text-positon">3D Animatör</div>
             <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Utku.jpg")} />
+              <img src={require("../../Images/Team Members/Utku.jpg")} alt="Utku"/>
             </div>
           </div>
           <div className="team-card">
             <div className="team-card-text-name">Nazım Erkota</div>
             <div className="team-card-text-positon">Senior Developer </div>
             <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Nazim.jpg")} />
+              <img src={require("../../Images/Team Members/Nazim.jpg")} alt="Nazım"/>
             </div>
           </div>
           <div className="team-card">
             <div className="team-card-text-name">Çağrı Çınar</div>
             <div className="team-card-text-positon">Developer</div>
             <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Cagri.jpg")} />
+              <img src={require("../../Images/Team Members/Cagri.jpg")} alt="Çağri"/>
             </div>
           </div>
           <div className="team-card">
             <div className="team-card-text-name">Kemal Okudan</div>
             <div className="team-card-text-positon">Concept Artist</div>
             <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Kemal.png")} />
+              <img src={require("../../Images/Team Members/Kemal.png")} alt="Kemal"/>
             </div>
           </div>
           <div className="team-card">
             <div className="team-card-text-name">Duygu Turan</div>
             <div className="team-card-text-positon">Concept Artist</div>
             <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Duygu.png")} />
+              <img src={require("../../Images/Team Members/Duygu.png")} alt="duygu"/>
             </div>
           </div>
           <div className="team-card"></div>

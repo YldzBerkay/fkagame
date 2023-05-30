@@ -52,12 +52,12 @@ function Header() {
         <div className="social-buttons">
           <button className="btn-social" onClick={openInstagram}>
             <Link className="btn-link">
-              <img src={require("../../Images/Instagram-Logo.png")} />
+              <img src={require("../../Images/Instagram-Logo.png")} alt="Instagram"/>
             </Link>
           </button>
           <button className="btn-social" onClick={openLinkedin}>
             <Link className="btn-link">
-              <img src={require("../../Images/LinkedIn-Logo.png")} />
+              <img src={require("../../Images/LinkedIn-Logo.png")} alt="LinkedIn"/>
             </Link>
           </button>
         </div>
