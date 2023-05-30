@@ -1,0 +1,13 @@
+.terms{
+    color: white;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+
+.terms-container{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}

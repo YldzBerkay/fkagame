@@ -1,0 +1,158 @@
+.news{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #dcdcdc;
+}
+
+.news-container{
+    max-width: 500px;
+    margin: 0 3rem;
+}
+
+.news-title{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 75px;
+    border-bottom: 1px solid white;
+}
+
+.news-content{
+    margin: 2rem 1rem;
+}
+
+.news-paragraph p{
+    margin-bottom: 0.3rem;
+}
+
+
+.news-header-date{
+    line-height: 1.2rem;
+    font-size: 1.4rem;
+}
+
+h3{
+    margin-bottom: 0;
+}
+.news-date{
+    font-size: 0.7rem;
+    /* text yükseliğini azalt */
+
+    margin-top: 0;
+}
+
+.line{
+    border-bottom: 1px solid #CED0D4;
+    display: block;
+    margin-bottom: 0;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    line-height: 1.34;
+    direction: ltr;
+}
+
+
+/* POP UP */
+
+.popup-button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+    font-size: 0.7rem;
+    text-decoration: underline;
+    padding: 0;
+}
+
+.popup-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+}
+
+@media (max-height: 601px){
+    .popup-content{
+        height: 300px;
+    }
+}
+
+
+.popup-content{
+    position: relative;
+    max-width: 400px;
+    max-height: 500px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    overflow-y: scroll;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5rem;
+    margin: 1rem 2rem;
+}
+
+.popup-header{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popup-close-button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+
+}
+
+.closeBar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    background-color: #a3a3a3;
+}
+
+
+.popup-close-button:hover .closeBar{
+    background-color: #000;
+}
+
+
+.popup-close-button .closeBar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.popup-close-button .closeBar:nth-child(2) {
+    opacity: 0;
+}
+
+.popup-close-button .closeBar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.popup-title{
+    font-size: 1.4rem;
+}
+
+.popup-date{
+    font-size: 0.8rem;
+    margin-top: 0;
+}
+
+.popup-paragraph{
+    margin: 0 1rem;
+}
+

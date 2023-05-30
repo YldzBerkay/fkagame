@@ -1,0 +1,102 @@
+.thelosthope {
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.thelosthope-header {
+    width: 100vw;
+    height: 125px;
+    background-color: rgba(0, 0, 0, 1);
+    /* İÇİNDEKLERİ YAN YANA GÖSTER */
+    display: flex;
+    flex-direction: row;
+    background-image: url("../../Images/modal_header_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thelosthope-header p {
+    max-width: 40%;
+    height: 125px;
+    /* yazı alt satıra inmesin */
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 3rem;
+    color: white;
+    padding-left: 2rem;
+}
+
+
+
+.thelosthope-body {
+    color: #dcdcdc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.thelosthope-part-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 2rem
+}
+
+.thelosthope-part-one img {
+    max-width: 600px;
+    height: auto;
+    object-fit: cover;
+    border: black solid 3px;
+    margin: 1rem;
+    border-radius: 5%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 685px) {
+    .thelosthope-header p {
+        font-size: 2rem;
+        align-self: center;
+        padding: 0;
+
+    }
+
+    .thelosthope-part-one h1 {
+        text-align: center;
+    }
+
+    .thelosthope-header {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .thelosthope-part-one img {
+        max-width: 250px;
+        margin: 0;
+    }
+
+    .thelosthope-part-one {
+        margin: 0 1rem
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

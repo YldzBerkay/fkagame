@@ -1,0 +1,29 @@
+.error{
+    /* sayfa içine ortala ve alt alta yazdır */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.error h1{
+    font-size: 7rem;
+    margin: 0 2rem;
+}
+
+.error h2{
+    font-size: 5rem;
+    margin: 0 2rem;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .error h1{
+        font-size: 5rem;
+    }
+    .error h2{
+        font-size: 3rem;
+    }
+}

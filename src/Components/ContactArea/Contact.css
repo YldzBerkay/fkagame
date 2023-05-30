@@ -1,0 +1,145 @@
+.contact {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #dcdcdc;
+    flex-direction: column;
+}
+
+.contact h3 {
+    font-size: 1.5rem;
+
+}
+
+.contact-h1 h1 {
+    border-bottom: 2px solid #dcdcdc;
+    font-size: 1.8rem;
+}
+
+.contact-p p {
+    margin: 0 5rem;
+
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 2rem 2rem 2rem;
+}
+
+.form p {
+    margin: 0;
+    text-align: left;
+    width: 208px;
+    text-decoration: underline;
+}
+
+form {
+    /* alt alta diz */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    width: 300px;
+}
+
+input {
+    margin: 0.7rem;
+    width: 200px;
+    height: 25px;
+}
+
+/* input text ve emaili özelleştir*/
+input[type="text"],
+input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #dcdcdc;
+    background-color: transparent;
+    color: #dcdcdc;
+    font-size: 1rem;
+}
+
+textarea {
+    margin: 0.7rem;
+    width: 200px;
+    resize: none;
+    height: 150px;
+    border: none;
+    border-bottom: 1px solid #dcdcdc;
+    background-color: transparent;
+    color: #dcdcdc;
+    font-size: 1rem;
+}
+
+
+/* submiti özelleştir */
+input[type="submit"] {
+    margin: 0.7rem;
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #dcdcdc;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+    font-size: 1rem;
+}
+
+
+.contact-information {
+    /* soldan sağa doğrı diz */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.form-h3 {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* yazı alt satıra inmesin */
+    white-space: nowrap;
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    .contact-p p {
+        margin: 0 1rem;
+    }
+
+    form {
+
+        width: 200px;
+    }
+
+    input {
+        width: 150px;
+    }
+
+
+    textarea {
+        width: 150px;
+    }
+
+
+    /* submiti özelleştir */
+    input[type="submit"] {
+        width: 75px;
+    }
+}
+
