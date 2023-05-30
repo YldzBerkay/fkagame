@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/fkagame/static/css/main.341fead1.css",
+    "main.js": "/fkagame/static/js/main.43f53141.js",
+    "static/js/787.4984c6e2.chunk.js": "/fkagame/static/js/787.4984c6e2.chunk.js",
+    "static/media/game3.1.jpg": "/fkagame/static/media/game3.1.c0b79ef544a16f2a3425.jpg",
+    "static/media/Kemal.png": "/fkagame/static/media/Kemal.3ba6dca8674c3869dd4c.png",
+    "static/media/Duygu.png": "/fkagame/static/media/Duygu.5ad854e150bb24a80077.png",
+    "static/media/Instagram-Logo.png": "/fkagame/static/media/Instagram-Logo.35f16fc3d1d82c4faadf.png",
+    "static/media/Oguz.png": "/fkagame/static/media/Oguz.35548eb17581ebc43b7a.png",
+    "static/media/game3.2.jpg": "/fkagame/static/media/game3.2.2d9c564ca951c4b26873.jpg",
+    "static/media/Elif.png": "/fkagame/static/media/Elif.a9b8768a0679db8f4e96.png",
+    "static/media/hero.jpg": "/fkagame/static/media/hero.ba00dc260ea2211b0792.jpg",
+    "static/media/furkan.jpg": "/fkagame/static/media/furkan.477b2402011919615bfe.jpg",
+    "static/media/modal_header_bg.png": "/fkagame/static/media/modal_header_bg.174099a5aa30d3d96733.png",
+    "static/media/Berkay.jpg": "/fkagame/static/media/Berkay.4516d4fb48ab0c73d8e1.jpg",
+    "static/media/esrb.png": "/fkagame/static/media/esrb.bb50927b8f48de2cc82b.png",
+    "static/media/Oktay.jpg": "/fkagame/static/media/Oktay.12a57eb9c3c7f5aa4973.jpg",
+    "static/media/Nazim.jpg": "/fkagame/static/media/Nazim.264ac0a8727f0a0f558f.jpg",
+    "static/media/Onur.jpg": "/fkagame/static/media/Onur.22e5c9058403744e4c1e.jpg",
+    "static/media/no-photo.png": "/fkagame/static/media/no-photo.434671269c3b0d5c301f.png",
+    "static/media/Cagri.jpg": "/fkagame/static/media/Cagri.a50fad3c3b47b01e0eb9.jpg",
+    "static/media/Utku.jpg": "/fkagame/static/media/Utku.fb5569281e715d3a768b.jpg",
+    "static/media/LinkedIn-Logo.png": "/fkagame/static/media/LinkedIn-Logo.68ac41e1459436bfd38f.png",
+    "index.html": "/fkagame/index.html",
+    "main.341fead1.css.map": "/fkagame/static/css/main.341fead1.css.map",
+    "main.43f53141.js.map": "/fkagame/static/js/main.43f53141.js.map",
+    "787.4984c6e2.chunk.js.map": "/fkagame/static/js/787.4984c6e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.341fead1.css",
+    "static/js/main.43f53141.js"
+  ]
+}
