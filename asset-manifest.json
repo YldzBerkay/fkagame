@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fkagame/static/css/main.2977f34b.css",
-    "main.js": "/fkagame/static/js/main.33fd385d.js",
+    "main.js": "/fkagame/static/js/main.546a654b.js",
     "static/js/787.dc70055b.chunk.js": "/fkagame/static/js/787.dc70055b.chunk.js",
     "static/media/game3.1.jpg": "/fkagame/static/media/game3.1.c0b79ef544a16f2a3425.jpg",
     "static/media/Kemal.png": "/fkagame/static/media/Kemal.3ba6dca8674c3869dd4c.png",
@@ -24,11 +24,11 @@
     "static/media/LinkedIn-Logo.png": "/fkagame/static/media/LinkedIn-Logo.68ac41e1459436bfd38f.png",
     "index.html": "/fkagame/index.html",
     "main.2977f34b.css.map": "/fkagame/static/css/main.2977f34b.css.map",
-    "main.33fd385d.js.map": "/fkagame/static/js/main.33fd385d.js.map",
+    "main.546a654b.js.map": "/fkagame/static/js/main.546a654b.js.map",
     "787.dc70055b.chunk.js.map": "/fkagame/static/js/787.dc70055b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2977f34b.css",
-    "static/js/main.33fd385d.js"
+    "static/js/main.546a654b.js"
   ]
 }
