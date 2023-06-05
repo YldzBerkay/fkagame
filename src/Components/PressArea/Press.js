@@ -37,19 +37,46 @@ function Press() {
               <h1>Description</h1>
               <br></br>
               <p>
-                Red Barrels is the studio behind the immersive indie horror
-                series Outlast, a series that has terrified more than 8 million
-                players worldwide. Based in Montreal, Red Barrel’s mission is to
-                create unforgettable experiences that leave the player’s blood
-                running cold.
+                FKA Games is an independent game development team based in
+                Istanbul, Turkey. It was founded by Furkan Ömür, with
+                co-founders Oğuz Dündar and Kerem Şimşek. Currently, the team
+                consists of a total of 10 people and is in the process of
+                developing a computer game.
+                <br></br> <br></br>
+                FKA Games has a team dedicated to designing creative and
+                exciting games. The members of the team are experienced and
+                talented professionals who are passionate about the world of
+                gaming. Each member specializes in different stages of game
+                development and aims to work together synergistically to create
+                high-quality games.
+                <br></br> <br></br>
+                The goal of FKA Games in the game development process is to
+                provide players with unique and immersive experiences. The
+                team's vision is to create games that ignite players'
+                imaginations with captivating stories and challenging puzzles.
+                They aim to provide an enjoyable experience to players through
+                impressive graphics, captivating sounds, and smooth gameplay.
+                <br></br> <br></br>
+                FKA Games aims to achieve great success in the field of game
+                development to which they are passionately committed. In the
+                current phase of computer game development, the team is laying
+                the foundations for an exciting game by combining their
+                creativity and technical knowledge. Upon completion of the game,
+                FKA Games aims to provide players with an unforgettable
+                experience.
+                <br></br> <br></br>
+                As an independent game studio, FKA Games is dedicated to
+                delivering innovative and high-quality products to the gaming
+                industry. The team continually explores and develops new ideas
+                for an exciting future. With the support and interest of gamers,
+                FKA Games embarks on an exciting journey of growth and success.
               </p>
               <h1>History</h1>
               <p>
-                Red Barrels was founded by Philippe Morin (Prince of Persia:
-                Sands of Time, Assassin’s Creed and Uncharted: Drake’s Fortune),
-                David Chateauneuf (Lead level designer: Prince of Persia: Sands
-                of Time, Assassin’s Creed and Splinter Cell: Conviction) and
-                Hugo Dallaire (Art Director: Splinter Cell and Army of Two).
+                Furkan Ömür The Lost Hope Founder / Lead Game Designer (FKA
+                Games 2023) Oğuz Dündar Co-Founder / Lead Game Developer Endless
+                Combat (Fatalitech 2017) The Lost Hope (FKA Games 2023) Kerem
+                Şimşek Co-Founder / Art Director The Lost Hope (FKA Games 2023)
               </p>
             </div>
           </div>
