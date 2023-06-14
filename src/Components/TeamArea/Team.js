@@ -1,5 +1,6 @@
 import React from "react";
 import "./Team.css";
+import TeamCard from "./TeamCard";
 
 function Team() {
   return (
@@ -7,96 +8,78 @@ function Team() {
       <div className="team">
         <h1>Our Team</h1>
         <div className="team-container">
-          <div className="team-card">
-            <div className="team-card-text-name">Furkan Ömür</div>
-            <div className="team-card-text-positon">
-              Lead Cinematic Artist / Founder
-            </div>
-            <div className="team-card-image">
-              <img src={require("../../Images/Team Members/furkan.jpg")} alt="Furkan" />
-            </div>
-          </div>
-          <div className="team-card">
-            <div className="team-card-text-name">Oğuz Dündar</div>
-            <div className="team-card-text-positon">
-              Lead Developer / Co-Founder
-            </div>
-            <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Oguz.png")} alt="Oguz"/>
-            </div>
-          </div>
-          <div className="team-card">
-            <div className="team-card-text-name">Kerem Şimşek</div>
-            <div className="team-card-text-positon">
-              Art Director / Co-Founder
-            </div>
-            <div className="team-card-image">
-              <img src={require("../../Images/Team Members/no-photo.png")} alt="Kerem" />
-            </div>
-          </div>
-          <div className="team-card">
-            <div className="team-card-text-name">Elif Ardoğan</div>
-            <div className="team-card-text-positon">Junior 3D Artist </div>
-            <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Elif.png")} alt="Elif"/>
-            </div>
-          </div>
-          <div className="team-card">
-            <div className="team-card-text-name">Berkay Arda Yıldız</div>
-            <div className="team-card-text-positon">Web Developer</div>
-            <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Berkay.jpg")} alt="Berkay"/>
-            </div>
-          </div>
-          <div className="team-card">
-            <div className="team-card-text-name">Onur Erdinli</div>
-            <div className="team-card-text-positon">Level Designer </div>
-            <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Onur.jpg")} alt="Onur"/>
-            </div>
-          </div>
-          <div className="team-card">
-            <div className="team-card-text-name">Oktay Hotaman</div>
-            <div className="team-card-text-positon">Junior Level Designer</div>
-            <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Oktay.jpg")} alt="Oktay"/>
-            </div>
-          </div>
-          <div className="team-card">
-            <div className="team-card-text-name">Utku Şirin</div>
-            <div className="team-card-text-positon">3D Animatör</div>
-            <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Utku.jpg")} alt="Utku"/>
-            </div>
-          </div>
-          <div className="team-card">
-            <div className="team-card-text-name">Nazım Erkota</div>
-            <div className="team-card-text-positon">Senior Developer </div>
-            <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Nazim.jpg")} alt="Nazım"/>
-            </div>
-          </div>
-          <div className="team-card">
-            <div className="team-card-text-name">Çağrı Çınar</div>
-            <div className="team-card-text-positon">Developer</div>
-            <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Cagri.jpg")} alt="Çağri"/>
-            </div>
-          </div>
-          <div className="team-card">
-            <div className="team-card-text-name">Kemal Okudan</div>
-            <div className="team-card-text-positon">Concept Artist</div>
-            <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Kemal.png")} alt="Kemal"/>
-            </div>
-          </div>
-          <div className="team-card">
-            <div className="team-card-text-name">Duygu Turan</div>
-            <div className="team-card-text-positon">Concept Artist</div>
-            <div className="team-card-image">
-              <img src={require("../../Images/Team Members/Duygu.png")} alt="duygu"/>
-            </div>
-          </div>
+          <TeamCard 
+            name="Furkan Ömür"
+            position="Lead Cinematic Artist / Founder"
+            image={require("../../Images/Team Members/furkan.jpg")}
+            alt="Furkan"
+          />
+          <TeamCard
+            name="Oğuz Dündar"
+            position="Lead Developer / Co-Founder"
+            image={require("../../Images/Team Members/Oguz.png")}
+            alt="Oguz"
+          />
+          <TeamCard
+            name="Kerem Şimşek"
+            position="Art Director / Co-Founder"
+            image={require("../../Images/Team Members/no-photo.png")}
+            alt="Kerem"
+          />
+          <TeamCard
+            name="Elif Ardoğan"
+            position="Junior 3D Artist"
+            image={require("../../Images/Team Members/Elif.png")}
+            alt="Elif"
+          />
+          <TeamCard
+            name="Berkay Arda Yıldız"
+            position="Web Developer"
+            image={require("../../Images/Team Members/Berkay.jpg")}
+            alt="Berkay"
+          />
+          <TeamCard
+            name="Onur Erdinli"
+            position="Level Designer"
+            image={require("../../Images/Team Members/Onur.jpg")}
+            alt="Onur"
+          />
+          <TeamCard
+            name="Oktay Hotaman"
+            position="Junior Level Designer"
+            image={require("../../Images/Team Members/Oktay.jpg")}
+            alt="Oktay"
+          />
+          <TeamCard
+            name="Utku Şirin"
+            position="3D Animator"
+            image={require("../../Images/Team Members/Utku.jpg")}
+            alt="Utku"
+          />
+          <TeamCard
+            name="Nazım Erkota"
+            position="Senior Developer"
+            image={require("../../Images/Team Members/Nazim.jpg")}
+            alt="Nazım"
+          />
+          <TeamCard
+            name="Çağrı Çınar"
+            position="Developer"
+            image={require("../../Images/Team Members/Cagri.jpg")}
+            alt="Çağri"
+          />
+          <TeamCard
+            name="Kemal Okudan"
+            position="Concept Artist"
+            image={require("../../Images/Team Members/Kemal.png")}
+            alt="Kemal"
+          />
+          <TeamCard
+            name="Duygu Turan"
+            position="Concept Artist"
+            image={require("../../Images/Team Members/Duygu.png")}
+            alt="Duygu"
+          />
           <div className="team-card"></div>
           <div className="team-card"></div>
           <div className="team-card"></div>

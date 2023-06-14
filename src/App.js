@@ -13,7 +13,7 @@ import Error from "./Components/Error/Error";
 
 function App() {
   return (
-    <div className="deneme">
+    <div className="main-class">
       <Header />
       <Routes>
 
