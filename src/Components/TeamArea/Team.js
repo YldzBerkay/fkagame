@@ -23,7 +23,7 @@ function Team() {
           <TeamCard
             name="Kerem Şimşek"
             position="Art Director / Co-Founder"
-            image={require("../../Images/Team Members/no-photo.png")}
+            image={require("../../Images/Team Members/Kerem.jpg")}
             alt="Kerem"
           />
           <TeamCard
@@ -51,12 +51,6 @@ function Team() {
             alt="Oktay"
           />
           <TeamCard
-            name="Utku Şirin"
-            position="3D Animator"
-            image={require("../../Images/Team Members/Utku.jpg")}
-            alt="Utku"
-          />
-          <TeamCard
             name="Nazım Erkota"
             position="Senior Developer"
             image={require("../../Images/Team Members/Nazim.jpg")}
@@ -79,6 +73,12 @@ function Team() {
             position="Concept Artist"
             image={require("../../Images/Team Members/Duygu.png")}
             alt="Duygu"
+          />
+          <TeamCard
+            name="Anıl Özgen"
+            position="3D Karakter Artist"
+            image={require("../../Images/Team Members/Anil.png")}
+            alt="Anıl"
           />
           <div className="team-card"></div>
           <div className="team-card"></div>
