@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./TheLostHope.css";
 
 function TheLostHope() {
+  useEffect(() => {
+    document.title = "The Lost Hope";  
+  }, []);
   return (
     <div className="container">
       <div className="thelosthope">

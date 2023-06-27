@@ -1,8 +1,11 @@
-import React from "react";
+import React,{useEffect}from "react";
 import "./Team.css";
 import TeamCard from "./TeamCard";
 
 function Team() {
+  useEffect(() => {
+    document.title = "Team";  
+  }, []);
   return (
     <div className="container">
       <div className="team">

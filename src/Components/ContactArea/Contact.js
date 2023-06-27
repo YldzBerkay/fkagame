@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
 import "./Contact.css";
@@ -8,7 +8,9 @@ import alertify from "alertifyjs";
 // npm i @emailjs/browser
 
 const Contact = () => {
-
+  useEffect(() => {
+    document.title = "Contact";  
+  }, []);
   const form = useRef();
 
   const sendEmail = (e) => {

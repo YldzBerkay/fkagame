@@ -1,7 +1,11 @@
-import React from "react";
+import React,{useEffect} from "react";
+
 import "./Terms.css";
 
 function Terms() {
+  useEffect(() => {
+    document.title = "Terms";  
+  }, []);
   return (
     <div>
       <div className="terms">

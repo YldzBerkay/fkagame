@@ -1,8 +1,11 @@
-import React from "react";
+import React,{useEffect} from "react";
 
 import "./Press.css";
 
 function Press() {
+  useEffect(() => {
+    document.title = "Press";  
+  }, []);
   return (
     <div className="container">
       <div className="press">
